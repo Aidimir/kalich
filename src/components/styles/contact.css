@@ -1,0 +1,31 @@
+.contact {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.contact__button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.update {
+    background-color: lightseagreen;
+    color: white;
+}
+
+.delete {
+    background-color: red;
+    color: white;
+}
